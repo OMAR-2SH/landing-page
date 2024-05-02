@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    background-image: url(../img/img-bc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.navbar-nav a:hover{
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    padding: 5px;
+}
+.navbar-nav .nav-link i:hover {
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    padding: 10px;
+}
+.travel .text{
+    width: 400px;
+    letter-spacing: 2px;
+}
+.travel .text h1{
+    font-size: 100px;
+    color: #000000;
+    letter-spacing: 8px;
+}
+.travel .text h1 span{
+    color: rgba(255, 255, 255, 0.834);
+}
+.travel .btn{
+    border: 3px #af8472 solid;
+}
+.travel .buttons button{
+    color: white !important;
+}
+.travel .buttons button:hover {
+    background-color: #af8472;
+}
+.describtion .instagram{
+    color: #ab7f07;
+}
+.describtion .images{
+    width: 200px;
+}
+.describtion p{
+    width: 350px;
+}
+.travel .imag-s{
+    position: relative;
+}
+/*  */
+.travel .imag-s::before{
+    content: "";
+    position: absolute;
+    border-color: transparent #ffffffc0 transparent transparent;
+    border-width: 25px;
+    border-style: solid;
+    top: 43%;
+    left: -90px;
+}
+.travel .imag-s::after{
+    content: "";
+    position: absolute;
+    border-color: transparent transparent  transparent #ffffffc0;
+    border-width: 25px;
+    border-style: solid;
+    top: 43%;
+    right: -90px;
+}
+.dd{
+    position: relative;
+}
+.dd .circle{
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    /* position: relative; */
+    display: flex;
+    top: -40px;
+    left: 55%;
+    /* margin: auto; */
+
+}
+.dd .images .circle{
+    margin-right: 10px;
+}
+
+.dd .circle1:hover::after{
+background-color: #af8472;
+border-color: #af8472;
+}
+
+.dd .circle3:hover::after{
+background-color: #af8472;
+border-color: #af8472;
+}
+.dd .circle4:hover::after{
+background-color: #af8472;
+border-color: #af8472;
+}
+.dd .circle1::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: rgb(255, 255, 255) 4px solid;
+    border-radius: 50%;
+    left: 20%;
+    cursor: pointer;
+}
+
+.dd  .circle2::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.dd .circle3::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: white 4px solid;
+    border-radius: 50%;
+    left: 60%;
+    cursor: pointer;
+}
+
+.dd .circle4::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: white 4px solid;
+    border-radius: 50%;
+    left: 80%;
+    cursor: pointer;
+}
+
